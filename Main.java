@@ -22,8 +22,9 @@ class Main {
     System.out.println("I have cleared the screen.");
     System.out.println("Enter a term to search for and press Enter: ");
     int searchQuery = in.nextInt();
-    int searchResult=  Arrays.binarySearch(value, searchQuery)
+    int searchResult=  Arrays.binarySearch(value, searchQuery);
     System.out.println("Your search " + searchQuery + " was found at index " + searchResult);
+    System.out.println("If the index was a negative number, no results were found for your search.");
     
   }
 }
