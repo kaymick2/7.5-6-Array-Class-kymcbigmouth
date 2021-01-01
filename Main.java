@@ -68,6 +68,7 @@ class Main {
     System.out.println("exercise 7");
     wait(2000);
     System.out.println("The length of the original array is: " + value.length);
+    in.close();
   }
 
   public static void wait(int ms) {
